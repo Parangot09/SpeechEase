@@ -21,7 +21,7 @@ win.iconbitmap('C:\\Users\\hp\\Documents\\tkinter\\Txtv2\\Txt.ico')
 
 # create a label widget
 label = customtkinter.CTkLabel(master=win,text="Voice setting",text_font="Courier",bg="#202442",text_color="white")
-label.place(x=10,y=200
+label.place(x=10,y=200)
 
 # define a function to clear the textbox
 def cle_r():
@@ -66,7 +66,7 @@ def open_file():
 
 # create a textbox widget
 box = customtkinter.CTkTextbox(master=win,fg_color="#2D325A",width=520,height=242,border_color="#7033FF",border_width=1,corner_radius=10,text_color="white",
-  text_font="Courier"                                 )
+  text_font="Roboto"                                 )
 box.place(x=202,y=113)
 
 
@@ -79,14 +79,14 @@ b2 = customtkinter.CTkButton(master=win,text_color="white",text_font="Courier",f
          border_color="#43B5B5",border_width=1,command=say)
 b2.place(x=636,y=390)
 b3 = customtkinter.CTkButton(master=win,text_color="white",text_font="Courier",fg_color="#2D325A",bg_color="#252A4B",text="Save audio",corner_radius=10,
-         border_color="#FFEA2D",border_width=1,command=saver)
+         border_color="#FFEA2D",border_width=1,command=saver,hover_color="#DED581")
 b3.place(x=10,y=120)
 b4 = customtkinter.CTkButton(master=win,text_color="white",text_font="Courier",fg_color="#2D325A",bg_color="#252A4B",text="Open text",corner_radius=10,
-         border_color="#FF8412",border_width=1,command=open_file)
+         border_color="#FF8412",border_width=1,command=open_file,hover_color="#DE6F53")
 b4.place(x=10,y=45)
 
 b5 = customtkinter.CTkButton(master=win,text_color="white",text_font="Courier",fg_color="#2D325A",bg_color="#252A4B",text="Female",corner_radius=10,
-         border_color="#83f52c",border_width=1,command=female)
+         border_color="#83f52c",border_width=1,command=female,hover_color="#CBF5AB")
 b5.place(x=10,y=250)
 
 b6 = customtkinter.CTkButton(master=win,text_color="white",text_font="Courier",fg_color="#2D325A",bg_color="#252A4B",text="Male",corner_radius=10,
